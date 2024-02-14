@@ -1,0 +1,16 @@
+netlify deploy -----
+remove unused dependencies
+turn on git and push on github
+go to app.netlify.com
+newsite from git
+from github
+search the repo
+
+github deploy -----
+add dependencies: npm i gh-pages -D
+"homepage": "http://YOUR_GITHUB_ID.github.io/NAME_OF_GITHUB_REPO"
+add in script: 
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build",
+remove unused dependencies
+turn on git and push on github -> npm run deploy
